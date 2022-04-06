@@ -11,7 +11,7 @@ on:
 env:
   GITHUB_NAME: pengx17
   GITHUB_EMAIL: pengxiao@outlook.com
-  STARED_NUMBER: 10
+  STARRED_NUM: 10
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
       - name: My GitHub Status
         uses: yihong0618/github-readme-stats@main
         with:
-          STARED_NUMBER: ${{ env.STARED_NUMBER }}
+          STARED_NUMBER: ${{ env.STARRED_NUM }}
 
       - name: Push README
         uses: github-actions-x/commit@v2.6
