@@ -22,7 +22,7 @@ jobs:
       - name: My GitHub Status
         uses: yihong0618/github-readme-stats@main
         with:
-          STARED_NUMBER: ${{ env.STARRED_NUM }}
+          STARRED_NUM: ${{ env.STARRED_NUM }}
 
       - name: Push README
         uses: github-actions-x/commit@v2.6
