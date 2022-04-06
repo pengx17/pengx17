@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <!--START_SECTION:my_github-->
 ## The repos I created
 | ID  |                                            REPO                                             |   START    |   UPDATE   |  LAUGUAGE  | STARS |
