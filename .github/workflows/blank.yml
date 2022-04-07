@@ -12,6 +12,7 @@ env:
   GITHUB_NAME: pengx17
   GITHUB_EMAIL: pengxiao@outlook.com
   STARRED_NUM: 10
+  REPOS_NUM: 15
 
 jobs:
   build:
@@ -20,9 +21,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: My GitHub Status
-        uses: yihong0618/github-readme-stats@main
+        uses: pengx17/github-readme-stats@main
         with:
           STARRED_NUM: ${{ env.STARRED_NUM }}
+          REPOS_NUM: ${{ env.REPOS_NUM }}
 
       - name: Push README
         uses: github-actions-x/commit@v2.6
