@@ -28,6 +28,6 @@ jobs:
           REPOS_NUM: ${{ env.REPOS_NUM }}
 
       - name: Push README
-        uses: actions-x/commit@v4
-        with:
-          directory: ${{ github.workspace }}
+        run: |
+          git commit -a -m 'docs: push readme.md'
+          git push
