@@ -30,4 +30,4 @@ jobs:
       - name: Push README
         uses: actions-x/commit@v2
         with:
-          directory: ${{ $GITHUB_WORKSPACE }}
+          directory: ${{ github.workspace }}
