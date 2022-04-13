@@ -29,7 +29,7 @@ jobs:
 
       - name: Push README
         run: |
-          git config user.email {{ env.GITHUB_EMAIL }}
-          git config user.name {{ env.GITHUB_EMAIL }}
+          git config --local user.email {{ env.GITHUB_EMAIL }}
+          git config --local user.name {{ env.GITHUB_EMAIL }}
           git commit -a -m 'docs: push readme.md'
           git push
