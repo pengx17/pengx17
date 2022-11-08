@@ -11,8 +11,8 @@ on:
 env:
   GITHUB_NAME: pengx17
   GITHUB_EMAIL: pengxiao@outlook.com
-  STARRED_NUM: 10
-  REPOS_NUM: 15
+  STARRED_NUM: 6
+  REPOS_NUM: 6
 
 jobs:
   build:
