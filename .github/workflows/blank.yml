@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: My GitHub Status
-        uses: pengx17/github-readme-stats@main
+        uses: yihong0618/github-readme-stats@main
         with:
           STARRED_NUM: ${{ env.STARRED_NUM }}
           REPOS_NUM: ${{ env.REPOS_NUM }}
